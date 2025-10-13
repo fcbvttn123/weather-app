@@ -5,7 +5,9 @@ import { NavBar } from "./components/NavBar";
 function App() {
   return (
     <BrowserRouter>
-      <NavBar />
+      <header>
+        <NavBar />
+      </header>
       <AppRoutes />
     </BrowserRouter>
   );
