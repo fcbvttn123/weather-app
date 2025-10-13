@@ -3,3 +3,17 @@
 
 @import "tailwindcss";
 @config "./tailwind.config.js";
+
+:root {
+  color-scheme: dark;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  body {
+    @apply text-base font-sans bg-n-900 text-n-200;
+  }
+}

@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        neutral: {
+        n: {
           900: "hsl(243, 96%, 9%)",
           800: "hsl(243, 27%, 20%)",
           700: "hsl(243, 23%, 24%)",
