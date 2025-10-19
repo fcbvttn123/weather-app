@@ -1,7 +1,9 @@
 export function Home() {
   return (
-    <div>
-      <h1>Home Page</h1>
+    <div className="font-dm-sans mt-[30px]">
+      <h1 className="text-3xl text-center text-n-0 font-bold">
+        How's the sky looking today?
+      </h1>
     </div>
   );
 }
