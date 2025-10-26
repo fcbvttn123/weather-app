@@ -1,4 +1,5 @@
 import { SearchForm } from "../components/SearchForm";
+import { TodayForecast } from "../components/TodayForecast";
 
 export function Home() {
   return (
@@ -7,6 +8,7 @@ export function Home() {
         How's the sky looking today?
       </h1>
       <SearchForm />
+      <TodayForecast />
     </div>
   );
 }
